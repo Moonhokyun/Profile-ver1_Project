@@ -1,7 +1,8 @@
 body {
-  width: 100%;
+  width: 100vw;
   font-family: 'Nanum Gothic Coding', monospace;
   font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px;
 }
 
 .grid {
@@ -11,21 +12,19 @@ body {
 .box {
   color: white;
   font-size: 2vh;
-  background: #F4F2FB;
-  margin: 10px 0;
+  padding: 10px;
+  /* background: yellowgreen; */
+  margin: 10px;
   text-align: center;
-  border-radius: 10px;
 }
+
+
 
 /* 1번째 박스 */
 .box #main {
   background: linear-gradient(#ACB6E5, #74EBD5);
-  padding: 10px;
   border-radius: 10px;
-}
-
-.box #main h1 {
-  font-size: 16px;
+  height: 100%;
 }
 
 .box #main img {
@@ -57,8 +56,13 @@ body {
 
 /* 1번째 박스 */
 
-
 /* 2번째 박스 */
+.box2 {
+  background: #f4f2fb;
+  border-radius: 10px;
+  height: 100%;
+}
+
 .box2 .software_skills h2 {
   font-size: 24px;
   padding: 30px;
@@ -80,6 +84,12 @@ body {
 /* 2번째 박스 */
 
 /* 3번째 박스 */
+.box3 {
+  background: #f4f2fb;
+  border-radius: 10px;
+  height: 100%;
+}
+
 .box3 h2 {
   font-size: 24px;
   padding: 30px;
@@ -93,10 +103,15 @@ body {
   padding: 20px;
   padding-bottom: 60px;
 }
-
 /* 3번째 박스 */
 
 /* 4번째 박스 */
+.box4 {
+  background: #f4f2fb;
+  border-radius: 10px;
+  height: 100%;
+}
+
 .box4 h2 {
   font-size: 24px;
   padding: 30px;
@@ -119,227 +134,163 @@ body {
 /* 4번째 박스 */
 
 /* 5번째 박스 */
-.box5 #inner-grid {
-  background: #F4F2FB;
+.box5 {
+  background: #f4f2fb;
+  border-radius: 10px;
+  height: 100%;
 }
 
-.box5 #inner-grid .inner_box_1 {
-  padding: 30px;
-  background: #00000010;
-}
-
-.box5 #inner-grid .inner_box_1 h2 {
-  color: #131418c8;
+.box5 h2 {
   font-size: 24px;
-  padding-bottom: 50px;
-}
-
-.box5 #inner-grid .inner_box_1 h3 {
-  color: #131418c8;
-  font-size: 20px;
-  padding-bottom: 20px;
-}
-
-.box5 #inner-grid .inner_box_2 {
-  background: #00000010;
   padding: 30px;
-}
-
-.box5 #inner-grid .inner_box_2 h2 {
-  font-size: 24px;
-  padding-bottom: 50px;
+  text-align: center;
   color: #131418c8;
 }
 
-.box5 #inner-grid .inner_box_2 img {
-  width: 80px;
-  padding: 20px;
-}
-
-.box5 #inner-grid .inner_box_3 {
-  background: #00000010;
-  padding: 30px;
-}
-
-.box5 #inner-grid .inner_box_3 h2 {
-  font-size: 24px;
-  padding-bottom: 50px;
+.box5 h3{
+  font-size: 18px;
+  padding: 10px;
   color: #131418c8;
 }
-
-.box5 #inner-grid .inner_box_3 img {
-  width: 80px;
-  padding: 20px;
-
-}
-
-.box5 #inner-grid .inner_box_4 {
-  background: #00000010;
-  padding: 30px;
-}
-
-.box5 #inner-grid .inner_box_4 h2 {
-  font-size: 24px;
-  padding-bottom: 50px;
-  color: #131418c8;
-}
-
-.box5 #inner-grid .inner_box_4 img {
-  width: 80px;
-  padding: 20px;
-
-}
-
-
 /* 5번째 박스 */
 
-@media screen and (min-width: 576px) {
-  body {
-    width: 100%;
-    font-family: 'Nanum Gothic Coding', monospace;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
+/* 6번째 박스 */
+.box6 {
+  background: #f4f2fb;
+  border-radius: 10px;
+  height: 100%;
+}
 
+.box6 h2 {
+  font-size: 24px;
+  padding: 30px;
+  text-align: center;
+  color: #131418c8;
+}
+
+.box6 a img {
+  display: inline-block;
+  width: 100px;
+  padding: 20px;
+  padding-bottom: 60px;
+}
+/* 6번째 박스 */
+
+/* 7번째 박스 */
+.box7 {
+  background: #f4f2fb;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.box7 h2 {
+  font-size: 24px;
+  padding: 30px;
+  text-align: center;
+  color: #131418c8;
+}
+
+.box7 a img {
+  display: inline-block;
+  width: 100px;
+  padding: 20px;
+  padding-bottom: 60px;
+  opacity: 80%;
+}
+/* 7번째 박스 */
+
+/* 8번째 박스 */
+.box8 {
+  background: #f4f2fb;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.box8 h2 {
+  font-size: 24px;
+  padding: 30px;
+  text-align: center;
+  color: #131418c8;
+}
+
+.box8 img {
+  display: inline-block;
+  width: 100px;
+  padding: 20px;
+  padding-bottom: 60px;
+  opacity: 80%;
+}
+/* 8번째 박스 */
+
+/* 9번째 박스 */
+.box9 {
+  background: #f4f2fb;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.box9 h2 {
+  font-size: 24px;
+  padding: 30px;
+  text-align: center;
+  color: #131418c8;
+}
+
+.box9 img {
+  display: inline-block;
+  width: 100px;
+  padding: 20px;
+  padding-bottom: 60px;
+  opacity: 80%;
+}
+/* 9번째 박스 */
+
+/* 10번째 박스 */
+.box10 {
+  background: #f4f2fb;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.box10 h2 {
+  font-size: 24px;
+  padding: 30px;
+  text-align: center;
+  color: #131418c8;
+}
+
+.box10 img {
+  display: inline-block;
+  width: 100px;
+  padding: 20px;
+  padding-bottom: 60px;
+  opacity: 80%;
+}
+/* 10번째 박스 */
+@media screen and (min-width: 576px) {
   .grid {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     grid-template-columns: repeat(4, 1fr);
     grid-auto-flow: column;
-    grid-gap: 10px;
+    grid-gap: 0px;
   }
 
   .box {
     margin: 0;
-    background: #F4F2FB;
-    border-radius: 10px;
   }
-
-  /* 첫번째 박스 모발 */
-  .box #main {
-    background: linear-gradient(#ACB6E5, #74EBD5);
-    padding: 20px;
-    border-radius: 10px;
-  }
-
-  .box #main img {
-    padding: 20px;
-  }
-
-  .box #main h1 {
-    font-size: 42px;
-    padding: 20px;
-    text-align: left;
-    color: #311D4D;
-  }
-
-  .box #main h2 {
-    font-size: 24px;
-    padding: 20px;
-    text-align: left;
-    color: #311D4D;
-  }
-
-  .box #main h3 {
-    font-size: 14px;
-    padding: 20px;
-    text-align: left;
-    line-height: 24px;
-    color: #311D4D;
-  }
-
-  /* 첫번째 박스 모발 */
-
-  /* 두번째 박스 모발 */
-  .box2 .software_skills h2 {
-    font-size: 24px;
-    padding: 30px;
-
-    text-align: center;
-    color: #131418c8;
-  }
-
-  .box2 .software_skills .adobe {
-    display: inline-block;
-    padding: 20px;
-    opacity: 80%;
-    padding-bottom: 60px;
-  }
-
-  .box2 .software_skills .adobe img {
-    width: 62px;
-  }
-
-  /* 두번째 박스 모발 */
-
-  /* 세번째 박스 모발 */
-  .box3 h2 {
-    font-size: 24px;
-    padding: 30px;
-    text-align: center;
-    color: #131418c8;
-  }
-
-  .box3 img {
-    display: inline-block;
-    width: 220px;
-    padding: 20px;
-    padding-bottom: 60px;
-  }
-
-  /* 세번째 박스 모발 */
-
-  /* 네번째 박스 모발*/
-  .box4 h2 {
-    font-size: 24px;
-    padding: 30px;
-    text-align: center;
-    color: #131418c8;
-  }
-
-  .box4 img {
-    width: 62px;
-  }
-
-
-  .box4 .table4 {
-    padding-bottom: 60px;
-    display: inline-block;
-    padding: 20px;
-    /* padding-bottom: 60px; */
-    opacity: 80%;
-  }
-
-  /* 네번째 박스 모발*/
 
   .box:nth-child(1) {
     grid-row: span 12;
   }
 
-  .box .contents {
-    position: relative;
-    padding: 10px;
-  }
-
   .box:nth-child(2),
-  .box:nth-child(3),
-  .box:nth-child(4) {
+  .box:nth-child(3) {
     grid-row: span 6;
   }
 
-  #inner-grid {
-    grid-row: span 4;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-gap: 10px;
-  }
-
-  #inner-grid>div {
-    background: salmon;
-    padding: 10px;
-    border-radius: 10px;
-
-  }
-
+  .box:nth-child(4),
+  .box:nth-child(5),
   .box:nth-child(6) {
     grid-row: span 4;
   }
@@ -348,6 +299,6 @@ body {
   .box:nth-child(8),
   .box:nth-child(9),
   .box:nth-child(10) {
-    grid-row: span 4;
+    grid-row: span 3;
   }
 }

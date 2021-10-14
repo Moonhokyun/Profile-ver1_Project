@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>profile</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="./main.css">
   <script src="./main.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,8 +18,28 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Profile</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:soulty321@gmail.com">E Mail</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <main class="grid">
-    <!-- 메인 박스 -->
+    <!-- 1번째 박스 -->
     <div class="box">
       <div id="main">
         <img src="./images/IMG_5554.png" alt="">
@@ -26,15 +48,15 @@
           <h2>@muno_art</h2>
           <h3>일본에서 디자인을 공부하였고, 현재는 더 넓은 세상에
             서비스를 제공하고 싶어 개발 공부를 시작한 문호균입니다.
-            <br>웹 개발과 디자인은 표현하는 수단은 다르지만, 우리에게
+            <br><br>웹 개발과 디자인은 표현하는 수단은 다르지만, 우리에게
             즐거운 서비스를 제공하는 것은 같다고 생각합니다.
             세상을 향해 눈이 즐거운 웹을 개발하겠습니다.</h3>
         </div>
       </div>
     </div>
-    <!-- 메인 박스 -->
+    <!-- 1번째 박스 -->
 
-    <!-- 2번쩨 박스 -->
+    <!-- 2번째 박스 -->
     <div class="box">
       <div class="box2">
         <div class="software_skills">
@@ -96,18 +118,18 @@
         </div>
       </div>
     </div>
-    <!-- 2번쩨 박스 -->
+    <!-- 2번째 박스 -->
 
-    <!-- 3번쩨 박스 -->
+    <!-- 3번째 박스 -->
     <div class="box">
       <div class="box3">
         <h2>EDUCATION</h2>
         <img src="./images/nihon_logo.svg" alt="">
       </div>
     </div>
-    <!-- 3번쩨 박스 -->
+    <!-- 3번째 박스 -->
 
-    <!-- 4번쩨 박스 -->
+    <!-- 4번째 박스 -->
     <div class="box">
       <div class="box4">
         <h2>I WILL LEARN</h2>
@@ -167,46 +189,75 @@
         </div>
       </div>
     </div>
-    <!-- 4번쩨 박스 -->
+    <!-- 4번째 박스 -->
 
-    <!-- 5번쩨 박스 -->
+    <!-- 5번째 박스 -->
     <div class="box">
       <div class="box5">
-        <div id="inner-grid">
-          <div class="inner_box_1">
-            <h2>LANGUAGES</h2>
-            <h3>KO : Native</h3>
-            <h3>JA : Fluent</h3>
-            <h3>EN : Beginner</h3>
-          </div>
-          <div class="inner_box_2">
-            <h2>RESUME</h2>
-            <img src="./images/resume.svg" alt="">
-          </div>
+        <h2>LANGUAGES</h2>
+        <h3>KO : Native</h3>
+        <h3>JA : Fluent</h3>
+        <h3>EN : Beginner</h3>
+      </div>
+    </div>
+    <!-- 5번째 박스 -->
 
-          <div class="inner_box_3">
-            <h2>E-MAIL</h2>
-            <img src="./images/email.svg" alt="">
-          </div>
+    <!-- 6번째 박스 -->
+    <div class="box">
+      <div class="box6">
+        <h2>DESIGN PORTFOLIO</h2>
+        <a href="https://soulty321.myportfolio.com/">
+          <img src="./images/munoart.png" alt="디자인 포트폴리오 사이트로 이동">
+        </a>
+      </div>
+    </div>
+    <!-- 6번째 박스 -->
 
-          <div class="inner_box_4">
-            <h2>INSTAGRAM</h2>
-            <img src="./images/instagram.svg" alt="">
-          </div>
+    <!-- 7번째 박스 -->
+    <div class="box">
+      <div class="box">
+        <div class="box7">
+          <h2>GitHub</h2>
+          <a href="https://github.com/Moonhokyun">
+            <img src="./images/github.svg" alt="">
+          </a>
         </div>
       </div>
     </div>
-    <!-- 5번쩨 박스 -->
+    <!-- 7번째 박스 -->
 
-
+    <!-- 8번째 박스 -->
     <div class="box">
-      <div class="box6">
-        <img src="./images/munoart.png" alt="">
+      <div class="box8">
+        <h2>INSTAGRAM</h2>
+        <a href="https://www.instagram.com/muno_art/">
+          <img src="./images/instagram.svg" alt="">
+        </a>
       </div>
     </div>
-    <div class="box">7</div>
-    <div class="box">8</div>
-    <div class="box">9</div>
+    <!-- 8번째 박스 -->
+
+    <!-- 9번째 박스 -->
+    <div class="box">
+      <div class="box9">
+        <h2>E-MAIL</h2>
+        <a href="mailto:soulty321@gmail.com">
+          <img src="./images/email.svg" alt="">
+        </a>
+      </div>
+    </div>
+    <!-- 9번째 박스 -->
+
+    <!-- 10번째 박스 -->
+    <div class="box">
+      <div class="box10">
+        <h2>RESUME</h2>
+        <a href="https://www.notion.so/a2674b78d6354b65a624640be6c0727b">
+          <img src="./images/resume.svg" alt="">
+        </a>
+      </div>
+    </div>
+    <!-- 10번째 박스 -->
 
   </main>
 </body>
